@@ -1,17 +1,17 @@
-# Problèmes de Construction Logique
+# Logic Building Problems
 
 ## Description
-Ce projet est conçu pour résoudre des problèmes de construction logique en utilisant Java 21 et Maven. Il est basé sur les ressources de GeeksforGeeks pour les problèmes DSA de construction logique.
+This project is designed to solve logic building problems using Java 21 and Maven. It is based on GeeksforGeeks resources for DSA logic building problems.
 
-## Ressources
+## Resources
 - [GeeksforGeeks - Logic Building Problems](https://www.geeksforgeeks.org/dsa/logic-building-problems/)
 
-## Technologies utilisées
+## Technologies Used
 - **Java**: Version 21
-- **Maven**: Gestionnaire de dépendances et build tool
-- **JUnit 5**: Framework de test
+- **Maven**: Dependency management and build tool
+- **JUnit 5**: Testing framework
 
-## Structure du projet
+## Project Structure
 ```
 logic-building-problems/
 ├── src/
@@ -27,18 +27,18 @@ logic-building-problems/
 └── README.md
 ```
 
-## Comment utiliser ce projet
+## How to Use This Project
 
-### Prérequis
-- Java 21 installé sur votre système
-- Maven installé
+### Prerequisites
+- Java 21 installed on your system
+- Maven installed
 
 ### Compilation
 ```bash
 mvn clean compile
 ```
 
-### Exécution
+### Execution
 ```bash
 mvn exec:java -Dexec.mainClass="com.algorithms.logicbuilding.App"
 ```
@@ -48,24 +48,24 @@ mvn exec:java -Dexec.mainClass="com.algorithms.logicbuilding.App"
 mvn test
 ```
 
-### Empaquetage
+### Package
 ```bash
 mvn package
 ```
 
-## Contribution
-1. Créez des classes pour différents types de problèmes de logique
-2. Ajoutez des tests unitaires pour chaque solution
-3. Documentez vos solutions avec des commentaires clairs
-4. Utilisez les bonnes pratiques de programmation Java
+## Contributing
+1. Create classes for different types of logic problems
+2. Add unit tests for each solution
+3. Document your solutions with clear comments
+4. Use Java programming best practices
 
-## Exemples de problèmes à résoudre
-- Vérification de nombres pairs/impairs
-- Calculs mathématiques
-- Manipulation de chaînes
-- Algorithmes de tri
-- Problèmes de logique booléenne
-- Patterns et séquences
+## Examples of Problems to Solve
+- Even/odd number verification
+- Mathematical calculations
+- String manipulation
+- Sorting algorithms
+- Boolean logic problems
+- Patterns and sequences
 
-## Auteur
-Projet créé pour l'apprentissage des problèmes de construction logique en Java. 
+## Author
+Project created for learning logic building problems in Java. 
