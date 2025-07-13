@@ -18,11 +18,7 @@ public class EvenOddChecker {
     public static boolean isEvenNaive(int n) {
         // Trouver le reste de la division par 2
         int rem = n % 2;
-        if (rem == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return rem == 0;
     }
     
     /**
@@ -37,11 +33,7 @@ public class EvenOddChecker {
      */
     public static boolean isEvenBitwise(int n) {
         // Opération bitwise AND avec 1
-        if ((n & 1) == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (n & 1) == 0;
     }
     
     /**
